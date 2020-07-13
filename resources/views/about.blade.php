@@ -17,7 +17,7 @@
     <div class="container">
         <a href="{{ url('') }}">หน้าแรก</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">เกี่ยวกับเรา</span>
+        <span class="current">{{ $about->title }}</span>
     </div>
 </div>
 <!-- ################### breadcrumns ################## -->

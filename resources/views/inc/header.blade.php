@@ -51,7 +51,7 @@
                             <a href="{{ url('service') }}" class="nav-link text-left">งานบริการ</a>
                         </li>
                         <li>
-                            <a href="{{ url('how-to-pay') }}" class="nav-link text-left">วิธีการซื้อและชำระเงิน</a>
+                            <a href="{{ url('how-to-buy') }}" class="nav-link text-left">วิธีการซื้อและชำระเงิน</a>
                         </li>
                         <li>
                             <a href="{{ url('contact') }}" class="nav-link text-left">ติดต่อเรา</a>

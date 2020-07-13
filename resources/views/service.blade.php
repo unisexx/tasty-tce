@@ -17,7 +17,7 @@
     <div class="container">
         <a href="{{ url('') }}">หน้าแรก</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">งานบริการ</span>
+        <span class="current">{{ $service->title }}</span>
     </div>
 </div>
 <!-- ################### breadcrumns ################## -->

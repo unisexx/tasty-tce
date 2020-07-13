@@ -33,4 +33,5 @@
 <script src="{{ asset('site-html/js/jquery.sticky.js') }}"></script>
 <script src="{{ asset('site-html/js/jquery.mb.YTPlayer.min.js') }}"></script>
 <script src="{{ asset('site-html/js/main.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 @endpush

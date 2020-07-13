@@ -20,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index');
 Route::get('about', 'AboutController@index');
 Route::get('service', 'ServiceController@index');
+Route::get('how-to-buy', 'HowToBuyController@index');
+Route::get('contact', 'ContactController@index');
+Route::post('contact/save', 'ContactController@save');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

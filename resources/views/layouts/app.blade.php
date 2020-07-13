@@ -14,6 +14,7 @@
             @include('inc.footer')
         </div>
         @stack('js')
+        @stack('js2')
         {!! sweetAlert29() !!}
     </body>
 </html>
