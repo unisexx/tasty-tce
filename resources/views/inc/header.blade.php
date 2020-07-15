@@ -1,7 +1,3 @@
-@php
-    $product_categories = \App\ProductCategory::active()->orderBy('order', 'asc')->get();
-@endphp
-
 <div class="site-mobile-menu site-navbar-target">
     <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">

@@ -17,5 +17,8 @@ class Controller extends BaseController
     {
         $contact = Contact::first();
         View::share('contact', $contact);
+
+        $product_categories = \App\ProductCategory::active()->orderBy('order', 'asc')->get();
+        View::share('product_categories', $product_categories);
     }
 }

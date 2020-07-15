@@ -1,7 +1,7 @@
 <div class="col-lg-4 col-md-6 mb-4">
     <div class="course-1-item">
         <figure class="thumnail">
-            <a href="products-single.html"><img src="{{ Voyager::image($product->thumbnail('cropped')) }}" alt="Image" class="img-fluid"></a>
+            <a href="{{ url('product/detail/'.$product->id) }}"><img src="{{ Voyager::image($product->thumbnail('cropped')) }}" alt="Image" class="img-fluid"></a>
             <div class="price">{{ $product->price }}.-</div>
             <div class="category">
                 <h3>{{ $product->title }}</h3>

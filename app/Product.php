@@ -13,4 +13,9 @@ class Product extends Model
     {
         return $query->where('status', 1);
     }
+
+    public function productCategory()
+    {
+        return $this->belongsTo('App\ProductCategory');
+    }
 }

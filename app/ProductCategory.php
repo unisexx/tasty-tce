@@ -10,4 +10,9 @@ class ProductCategory extends Model
     {
         return $query->where('status', 1);
     }
+
+    public function products()
+    {
+        return $this->hasMany('App\Product');
+    }
 }
