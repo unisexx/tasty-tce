@@ -77,12 +77,21 @@
                 <p>สามารถโอนเงินเช้าบัญชีบริษัท</p>
                 <div class="col-md-12 bg-gray mx-auto p-5">
                     <h4>{{ $how->bank_account }}</h4>
-                    <div class="row col-md-12 mx-auto p-5">
+                    <div class="row col-md-12 mx-auto p-5 justify-content-center align-items-center">
                         <div class="col-md-6">
-                            <img src="{{ asset('site-html/images/icon-scb.png') }}" alt="">
+                            <img src="{{ asset('site-html/images/KrungSri_Logo.webp') }}" alt="ธนาคารกรุงศรี" height="80">
                         </div>
                         <div class="col-md-6">
                             <h3>{{ $how->bank_number }}</h3>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 mx-auto p-5 justify-content-center align-items-center">
+                        <div class="col-md-6">
+                            <img class="mx-auto d-block" src="{{ asset('site-html/images/promptpay.jpg') }}" alt="พร้อมเพย์" height="80">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>{{ $how->promptpay }}</h3>
+                            <img src="{{ asset('storage/'.$how->qrcode) }}" alt="QR Code" width="150">
                         </div>
                     </div>
                 </div>

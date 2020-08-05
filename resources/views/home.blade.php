@@ -44,7 +44,7 @@
                     <div class="row mt-5">
                         @foreach($subchunk as $product_category)
                         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                            <a href="#"><img src="{{ asset('storage/'.$product_category->image) }}" alt=""><span class="cat pl-2">{{ $product_category->title }}</span></a>
+                            <a href="{{ url('product/category/'.$product_category->id) }}"><img src="{{ asset('storage/'.$product_category->image) }}" alt=""><span class="cat pl-2">{{ $product_category->title }}</span></a>
                         </div>
                         @endforeach
                     </div>
